@@ -1,0 +1,130 @@
+.forms{
+    width: 86%;
+    display: grid;
+    margin-top: 40px;
+    padding-left: 40px;
+    grid-template-columns: 190px 190px 190px 190px 115px 140px;
+   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@300&display=swap');
+.fclabel{
+    width:160px;
+    height: 30px;
+    text-align:left;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+     padding-bottom: 5px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+.fclabel2{
+    width:160px;
+    height: 30px;
+    text-align:left;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+.fcfield{
+    width:160px;
+    height: 30px;
+    border-radius: 20px;
+    border:2px  solid #80808052;
+    padding-left: 20px;
+    margin-top: 4px;
+    font-size: 12px;
+    font-family: 'Source Serif Pro', serif;
+    color: rgb(38, 26, 4);
+}
+.fcfield:hover{
+    cursor:pointer;
+}
+
+.fcinp{
+    width:140px;
+    height: 26px;
+    border-radius: 20px;
+    border:2px  solid #80808052;
+    padding-left: 20px;
+    margin-top: 4px;
+    font-family: 'Source Serif Pro', serif;
+}
+/* .fccheck{
+    height:"20px"
+} */
+
+.btnsdiv{
+    width: 80%;
+    margin-top: 20px;
+    display:inline-flex;
+    place-items: left;
+    padding-left: 40px;
+   
+}
+.btnsdiv>button{
+    /* background-color: rgb(164, 164, 174);  */
+    margin-right: 30px;
+    padding: 5px;
+    border: 0.5px solid silver;
+    border-radius: 4px;
+    font-weight: 300;
+}
+.btnsdiv>button:hover{
+background-color: rgb(81, 81, 255);
+cursor: pointer;
+color: white;
+}
+
+
+.iconsdiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 45% 1fr;
+    justify-items: left;
+    margin-top: 20px;
+}
+
+.iconsdiv1,.iconsdiv2{
+    padding-left: 40px;
+}
+.iconsdiv1>button,.iconsdiv2>button,.search>button{
+    margin-left: 4px;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+}
+.iconsdiv1>button:hover,.iconsdiv2>button:hover,.search>button:hover,.iconsdiv3>button:hover{
+    background-color: rgb(81, 81, 255);
+    cursor: pointer;
+    color: white;
+}
+
+.iconsdiv3>button{
+    border:none;
+    height:24px;
+    color:white;
+    background-color: rgba(72, 72, 230, 0.888);
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.check{
+    display:flex;
+    margin-top: 24px;
+    margin-left: 1px;
+}
+
+.search{
+    margin-top: 21px;
+    margin-left: 65px;
+}
+
+
